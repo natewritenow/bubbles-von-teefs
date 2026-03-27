@@ -1,0 +1,32 @@
+{
+  "name": "aha-develop.bubbles-von-teefs",
+  "description": "A delightfully ridiculous Aha! extension that launches a parade of bubble-blasting pufferfish whenever a to-do gets checked off",
+  "version": "1.0.0",
+  "author": "Nathaniel Collum",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natewritenow/bubbles-von-teefs"
+  },
+  "license": "MIT",
+  "keywords": [
+    "aha",
+    "aha-extension",
+    "to-do",
+    "animation",
+    "fish",
+    "bubbles"
+  ],
+  "ahaExtension": {
+    "contributes": {
+      "commands": {
+        "fish-celebration": {
+          "title": "Launch Bubbles von Teefs",
+          "entryPoint": "src/fish-celebration.js"
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "aha-cli": "^1.16.0"
+  }
+}
